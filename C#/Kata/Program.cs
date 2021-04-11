@@ -11,7 +11,8 @@ namespace Kata
             //Console.WriteLine(DeadAnts.DeadAntCount("...ant...ant..nat.ant.t..ant...ant..ant..ant.an ant..t")); // output 2
             //Console.WriteLine(DeadAnts.DeadAntCount(null)); // output 0
 
-            Console.WriteLine(BandNameGenerator.GenerateBandName("test"));
+            //Console.WriteLine(BandNameGenerator.GenerateBandName("test"));
+            Console.WriteLine(CountingDuplicates.DuplicateCount("aabbcde"));
         }
 
     }
