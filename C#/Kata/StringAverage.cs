@@ -1,14 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Kata
 {
     public class StringAverage
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(AverageString("two three"));
-        }
-
         public static string AverageString(string str)
         {
             string[] words = str.Split(' ');
